@@ -1,79 +1,142 @@
 export const data = [
   {
-    name: "Vera Mayo",
-    position: "CEO",
-    teamSize: 9,
-    id: 5000,
-    children: [
-      {
-        name: "Lenore Peters",
-        position: "CEO",
-        teamSize: 9,
-        id: 1,
-        children: [],
-      },
-      {
-        name: "Inga Snyder",
-        position: "CEO",
-        teamSize: 9,
-        id: 2,
-        children: [
-          {
-            name: "Lenore Peters",
-            position: "CEO",
-            teamSize: 9,
-            id: 11,
-          },
-          {
-            name: "Lenore Peters",
-            position: "CEO",
-            teamSize: 9,
-            id: 12,
-          },
-        ],
-      },
-      {
-        name: "Oliver Mayer",
-        position: "CEO",
-        teamSize: 9,
-        id: 3,
-        children: [
-          {
-            name: "Lenore Peters",
-            position: "CEO",
-            teamSize: 9,
-            id: 111,
-            children: [
-              {
-                name: "Lenore Peters",
-                position: "CEO",
-                teamSize: 9,
-                id: 1111,
-              },
-            ],
-          },
-          {
-            name: "Lenore Peters",
-            position: "CEO",
-            teamSize: 9,
-            id: 121,
-          },
-        ],
-      },
-      {
-        name: "Honorato Conner",
-        position: "CEO",
-        teamSize: 9,
-        id: 4,
-        children: [],
-      },
-      {
-        name: "Vera Mayo",
-        position: "CEO",
-        teamSize: 9,
-        id: 5,
-        children: [],
-      },
-    ],
-  },
+    
+      id: "0",
+      name: "Anurag Lingam",
+      role: "Team Lead",
+      photo: "#",
+      teamMembers: [
+        {
+          id: "1",
+          name: "Anantha Sai",
+          role: "Intern",
+          photo: "#"
+        },
+        {
+          id: "2",
+          name: "Ayush Agarwal",
+          role: "Intern",
+          photo: "#"
+        },
+        {
+          id: "3",
+          name: "Divij Agarwal",
+          role: "Intern",
+          photo: "#"
+        },
+        {
+          id: "4",
+          name: "Nikhil Chandna",
+          role: "Intern",
+          photo: "#"
+        },
+        {
+          id: "5",
+          name: "Rajesh Pullagura",
+          role: "Intern",
+          photo: "#",
+          teamMembers: [
+            {
+              id: "1",
+              name: "Avadhanam Anantha Sai",
+              role: "Intern",
+              photo: "#"
+            },
+            {
+              id: "2",
+              name: "Ayush Agarwal",
+              role: "Intern",
+              photo: "#"
+            },
+            {
+              id: "3",
+              name: "Divij Agarwal",
+              role: "Intern",
+              photo: "#"
+            },
+            {
+              id: "4",
+              name: "Nikhil Chandna",
+              role: "Intern",
+              photo: "#"
+            },
+            {
+              id: "5",
+              name: "Rajesh Pullagura",
+              role: "Intern",
+              photo: "#"
+            },
+            {
+              id: "6",
+              name: "Rakshita Middha",
+              role: "Intern",
+              photo: "#",
+              teamMembers: [
+                {
+                  id: "1",
+                  name: "Avadhanam Anantha Sai",
+                  role: "Intern",
+                  photo: "#"
+                },
+                {
+                  id: "2",
+                  name: "Ayush Agarwal",
+                  role: "Intern",
+                  photo: "#"
+                },
+                {
+                  id: "3",
+                  name: "Divij Agarwal",
+                  role: "Intern",
+                  photo: "#"
+                },
+                {
+                  id: "4",
+                  name: "Nikhil Chandna",
+                  role: "Intern",
+                  photo: "#"
+                },
+                {
+                  id: "5",
+                  name: "Rajesh Pullagura",
+                  role: "Intern",
+                  photo: "#"
+                },
+                {
+                  id: "6",
+                  name: "Rakshita Middha",
+                  role: "Intern",
+                  photo: "#"
+                },
+                {
+                  id: "7",
+                  name: "Shikha",
+                  role: "Intern",
+                  photo: "#"
+                }
+              ]
+            },
+            {
+              id: "7",
+              name: "Shikha",
+              role: "Intern",
+              photo: "#"
+            }
+          ]
+        },
+        {
+          id: "6",
+          name: "Rakshita Middha",
+          role: "Intern",
+          photo: "#"
+        },
+        {
+          id: "7",
+          name: "Shikha",
+          role: "Intern",
+          photo: "#"
+        },
+      ],
+    },
+      
 ];

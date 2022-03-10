@@ -6,7 +6,7 @@ function ChildCard(props:any) {
   return (
     <div className='flex-container'>
       {
-        props.children.map((user:any) => <div key={user.id} className='child-box'>
+        props.data?.map((user:any) => <div key={user.id} className='child-box'>
           <Childcard1 user={user} />
         </div>
       )}

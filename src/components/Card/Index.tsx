@@ -13,7 +13,7 @@ function Index(props: any) {
       </div>
       <div className="personal-details">
         <h2>{props.user.name}</h2>
-        <h5>{props.user.position}</h5>
+        <h2>{props.user.role}</h2>
       </div>
       <div className="team-size">{props.user.teamSize}</div>
     </div>
