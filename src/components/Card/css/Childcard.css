@@ -1,24 +1,27 @@
-.flex-container{
+/* .flex-container{
     display: flex;
     margin-left: 240px;
-    margin-right: 30px;
+    margin-right: 250px;
     margin-top: -70px;
-}
-
+} */
 
 .Card1{
     width: 220px;
     height: 110px;
     background-color: beige;
     /* padding: 20px; */
+    /* margin: 150px; */
     border-radius: 10px;
     border: 1px solid rgb(0, 0, 0);
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* margin-left: -1px; */
+    margin-right: 50px;
     align-items: center;
+    /* justify-content: space-evenly; */
     }
 .profile-photos{
     /* transform: translate(-13%,-14%); */
@@ -57,8 +60,11 @@
     display: flex;
     align-content: center;
     padding-left: 5px;
+    
 }
 .personal-data{
     line-height: 0.5;
 }
-
+/* .child-box{
+    margin-right: 100px;
+} */

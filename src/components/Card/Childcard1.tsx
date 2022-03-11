@@ -1,7 +1,10 @@
 
 import React from 'react'
+import Childcard from './Childcard';
+import "./css/Childcard.css";
 
-function Childcard1(props:any) {
+
+function ChildCard1(props:any) {
     return (
         <div className="Card1">
             <div className='card1_content'>
@@ -13,10 +16,10 @@ function Childcard1(props:any) {
           <h2>{props.user.role}</h2>
         </div>
         </div>
-        <div className="team-member" color='white'>{props.user.teamSize}
+        <div className="team-member" color='white'>{props.user.teamMembers?.length}
         </div>
     </div>
   
     )
 }
-export default Childcard1;
+export default ChildCard1;
